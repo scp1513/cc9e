@@ -42,6 +42,7 @@ jobs:
          run: |
               sudo chmod -R 777 ErfanGSIs
               cd ErfanGSIs
+              git checkout -- .
               git checkout 91fcdbb6cfba9f1378acac73050e72c3e7414368
               sudo apt install -y python3-dev python3-pip #python-dev python-pip
               sudo bash setup.sh
