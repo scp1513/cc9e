@@ -1,8 +1,8 @@
 name: miuicc9e_21.2.2_10
  
 on:
-  watch:
-    types: [push]
+  push:
+    branches: [ "master" ]
     
 env:
   ROM_URL: https://master.dl.sourceforge.net/project/xiaomi-eu-multilang-miui-roms/xiaomi.eu/MIUI-STABLE-RELEASES/MIUIv11/xiaomi.eu_multi_MICC9e_V11.0.6.0.PFMCNXM_v11-9.zip?viasf=1
