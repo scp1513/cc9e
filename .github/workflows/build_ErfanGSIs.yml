@@ -36,12 +36,13 @@ jobs:
             sudo -E apt-get -qq install git openjdk-8-jdk p7zip gzip
        
        - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/lkx-0686/ErfanGSIs.git;git checkout 91fcdbb6cfba9f1378acac73050e72c3e7414368
+         run: git clone --recurse-submodules https://github.com/lkx-0686/ErfanGSIs.git
        
        - name: Setting up ErfanGSI requirements
          run: |
               sudo chmod -R 777 ErfanGSIs
               cd ErfanGSIs
+	      git checkout 91fcdbb6cfba9f1378acac73050e72c3e7414368
               sudo apt install -y python3-dev python3-pip #python-dev python-pip
               sudo bash setup.sh
        
