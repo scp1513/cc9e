@@ -5,7 +5,7 @@ on:
     types: [started]87a1_10.0.zip
     
 env:
-  ROM_URL: https://119-188-133-2.ksyungslb.com/bigota.d.miui.com/21.2.2/miui_LAURUS_21.2.2_bdf7ad0ddd_10.0.zip?ksy_gslb_referer=https%3A%2F%2Fgithub.com%2FmooseIre%2Fupdate_miui_ota%2Fblob%2Fmaster%2FDevelop%2F%25E5%25B0%258F%25E7%25B1%25B3CC%25209e.md
+  ROM_URL: https://master.dl.sourceforge.net/project/xiaomi-eu-multilang-miui-roms/xiaomi.eu/MIUI-STABLE-RELEASES/MIUIv11/xiaomi.eu_multi_MICC9e_V11.0.6.0.PFMCNXM_v11-9.zip?viasf=1
   ROM_NAME: MIUI
   BUILD_AB: true
   BUILD_AONLY: false
